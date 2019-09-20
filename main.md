@@ -5,6 +5,8 @@ susbtitle: 3rd Workshop Biofabrication & Cancer
 date: Montpellier, 25 September 2019
 logo: images/logo.png
 fontsize: 11pt
+width: 1080
+height: 720
 ...
 
 
@@ -13,6 +15,8 @@ fontsize: 11pt
 ## Epithelial morphogenesis
 
 ![Farhadifar et al. 2007](images/epithelium.png "Drosophila embryo ectoderm")
+
+. . .
 
 > Simple mechanics are often  enough
 
@@ -23,16 +27,16 @@ fontsize: 11pt
 
 ##
 
-<table>
-    <tr>
-        <td> Without AB force or propagation </td>
-        <td> With AB force and propagation </td>
-    </tr>
-    <tr>
-        <td><img data-src="images/fold_00_small.gif" alt="Without apical-basal force" /></td>
-        <td><img data-src="images/fold_12_small.gif" alt="Without apical-basal force" /></td>
-    </tr>
-</table>
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![Without AB force or propagation](images/fold_00_small.gif "Without apical-basal force")
+:::
+::: {.column width="50%"}
+![With AB force or propagation](images/fold_12_small.gif "With apical-basal force")
+:::
+::::::::::::::
+
+. . .
 
 > Single cell processes interact with tissue level mechanisms
 
@@ -42,6 +46,8 @@ fontsize: 11pt
 ## Design and architecture
 
 ![](images/data_model.png)
+
+. . .
 
 
 > Modular design widens the range of applications
@@ -62,11 +68,11 @@ fontsize: 11pt
 
 ## Open questions
 
-* Pseudo stratified
-* Role of the ECM?
-* Mesenchymal cells
+![](images/pseudo_strat_and_basalcomplex.png)
 
-> Still work to do to capture a lot of biology
+. . .
+
+> There's still work to do!
 
 # Force inference and model fitting
 
