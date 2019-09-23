@@ -22,8 +22,14 @@ height: 720
 
 ## Role of apoptosis in fold formation
 
-![Gettings, Monier et al. 2015](images/leg_joint.png)
-
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](images/apical_vue_in_vivo.gif "Leg joint in vivo")
+:::
+::: {.column width="50%"}
+![](images/leg_joint.png "Modeling")
+:::
+::::::::::::::
 
 ##
 
@@ -54,16 +60,21 @@ height: 720
 
 ## A gallery
 
-<table>
-    <tr>
-        <td> <img data-src="images/3cells_type1.gif" alt="Type 1 transition in 3 cells" /></td>
-        <td> <img data-src="images/rheology.gif" alt="2D tissue rheology" /> </td>
-    </tr>
-    <tr>
-        <td><img data-src="images/ellipsoid.png" alt="Ellipsoid" /></td>
-        <td><img data-src="images/organoid.png" alt="Organoid" /></td>
-    </tr>
-</table>
+![](images/ellipsoid.png)
+
+##
+
+
+![](images/fold_ellipsoid.gif){width=800}
+
+##
+
+![](images/rheology.gif){width=600}
+
+
+##
+
+![](images/organoid.png)
 
 
 ## Open questions
@@ -78,24 +89,26 @@ height: 720
 
 ## 2D segementation
 
-* Detection method
-* Model reconstruction
+![](images/segmentation.png)
 
-> Pretty standard methods
 
 ## Force inference and model fitting
 
-* Method
-* First results
+![](images/segmented.png)
 
->
+
+. . .
+
+
+> Good 2D workflow
 
 ## Perspectives
 
 * Towards 3D
+* Deep learning
 
 
-# a tool for tissue engineering
+# Computer Assisted Tissue Engineering
 
 ##
 
