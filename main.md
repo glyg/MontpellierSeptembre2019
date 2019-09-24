@@ -16,6 +16,8 @@ height: 720
 
 ![Farhadifar et al. 2007](images/epithelium.png "Drosophila embryo ectoderm")
 
+$$ E = \sum_c \frac{K}{2}(A - A_0)^2 + \Gamma P^2 + \sum_{ij} \Lambda \ell_{ij} $$
+
 . . .
 
 > Simple mechanics are often  enough
@@ -44,7 +46,7 @@ height: 720
 
 . . .
 
-> Single cell processes interact with tissue level mechanisms
+> Modeling completes in vivo experiments
 
 
 # The `tyssue` library
@@ -58,34 +60,47 @@ height: 720
 
 > Modular design widens the range of applications
 
-## A gallery
+## Good practices
 
-![](images/ellipsoid.png)
-
-##
-
-
-![](images/fold_ellipsoid.gif){width=800}
-
-##
-
-![](images/rheology.gif){width=600}
-
-
-##
-
-![](images/organoid.png)
-
-
-## Open questions
-
-![](images/pseudo_strat_and_basalcomplex.png)
+![](images/tyssue_gh.png)
 
 . . .
 
-> There's still work to do!
+> Open source, easy maintenance
+
+## A gallery
+
+![Gracia et al 2019](images/ellipsoid.png)
+
+##
+
+
+![Sophie Theis](images/fold_ellipsoid.gif){width=800}
+
+##
+
+![E. Moisdon & C. Gay](images/rheology.gif){width=600}
+
+
+##
+
+![E. Hannezo](images/organoid.png)
+
+##
+
+![](images/fails.png)
+
+##
+
+![](images/comp_silico_vivo.png)
 
 # Force inference and model fitting
+
+
+##
+
+![](images/data2model.png)
+
 
 ## 2D segementation
 
@@ -94,24 +109,45 @@ height: 720
 
 ## Force inference and model fitting
 
-![](images/segmented.png)
+![F. Quinton](images/segmented.png)
 
 
 . . .
 
 
-> Good 2D workflow
+> Actin / tension correlation
 
-## Perspectives
-
-* Towards 3D
-* Deep learning
 
 
 # Computer Assisted Tissue Engineering
 
+## Perspectives
+
+* Towards 3D with Julien Laussu
+
+
+* Data enrichment with Deep learning
+
+
 ##
 
-* Microscopy data to models
-* Models as virtual experiments
 * Models as parameter spaces
+* Models as virtual experiments
+
+
+## Thank you!
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+* Sophie Theis
+* Magali Suzanne & team
+* Audrey Ferrand & team
+* Florian Bugarin & team
+:::
+::: {.column width="50%"}
+* Cyprien Gay
+* Étienne Moisdon
+* Édouard Hannezo
+* Maxime Bouchard
+:::
+::::::::::::::
