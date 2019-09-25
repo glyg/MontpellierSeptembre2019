@@ -12,15 +12,16 @@ height: 720
 
 # Understanding epithelium mechanics at the cell level
 
-## Epithelial morphogenesis
+
+## Epithelium mechanics
 
 ![Farhadifar et al. 2007](images/epithelium.png "Drosophila embryo ectoderm")
 
-$$ E = \sum_c \frac{K}{2}(A - A_0)^2 + \Gamma P^2 + \sum_{ij} \Lambda \ell_{ij} $$
 
 . . .
 
 > Simple mechanics are often  enough
+
 
 ## Role of apoptosis in fold formation
 
@@ -29,7 +30,7 @@ $$ E = \sum_c \frac{K}{2}(A - A_0)^2 + \Gamma P^2 + \sum_{ij} \Lambda \ell_{ij} 
 ![](images/apical_vue_in_vivo.gif "Leg joint in vivo")
 :::
 ::: {.column width="50%"}
-![](images/leg_joint.png "Modeling")
+![Monier, Gettings et al. 2015](images/leg_joint.png "Modeling")
 :::
 ::::::::::::::
 
@@ -74,7 +75,6 @@ $$ E = \sum_c \frac{K}{2}(A - A_0)^2 + \Gamma P^2 + \sum_{ij} \Lambda \ell_{ij} 
 
 ##
 
-
 ![Sophie Theis](images/fold_ellipsoid.gif){width=800}
 
 ##
@@ -85,6 +85,10 @@ $$ E = \sum_c \frac{K}{2}(A - A_0)^2 + \Gamma P^2 + \sum_{ij} \Lambda \ell_{ij} 
 ##
 
 ![E. Hannezo](images/organoid.png)
+
+##
+
+![M. Bouchard](images/tube.gif)
 
 ##
 
@@ -111,29 +115,19 @@ $$ E = \sum_c \frac{K}{2}(A - A_0)^2 + \Gamma P^2 + \sum_{ij} \Lambda \ell_{ij} 
 
 ![F. Quinton](images/segmented.png)
 
-
 . . .
 
 
 > Actin / tension correlation
 
 
-
 # Computer Assisted Tissue Engineering
 
-## Perspectives
+## Caracterisation stage
 
-* Towards 3D with Julien Laussu
+![](images/deeplearning.png)
 
-
-* Data enrichment with Deep learning
-
-
-##
-
-* Models as parameter spaces
-* Models as virtual experiments
-
+## Design stage?
 
 ## Thank you!
 
